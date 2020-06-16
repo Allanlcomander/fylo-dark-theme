@@ -22,6 +22,7 @@ header,button{
 [class*="col-"] {
     float: left;
     padding: 15px;
+    /* border: 1px #ffffff solid; */
   }
   
   .row {
@@ -110,47 +111,90 @@ button{
     line-height: 25px;
 }
 
+.collabration{
+    padding: 80px 0;
+}
 
+.productive{
+    padding: 50px 25px;
+   
+}
 
+.productive h1{
+    font-size: 45px;
+}
+.arrow img{
+    position: relative;
+    top: 4px;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.productive p:last-child {
+    padding: 20px 0;
+}
 
 
 
 /* chips */
+.testimonial{
+    /* position: absolute; */
+    /* left: 80px; */
+    background-image: url("../images/bg-quotes.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.testimony{
+    margin-top: 25px;
+    padding: 0;
+    line-height: 20px;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin:10px;
+    padding: 10px;
+    background-color:  hsl(219, 30%, 18%);
+    
+    
+    
+  }
+
 .chip {
     display: inline-block;
-    padding: 0 25px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 50px;
+    margin-top: 20px;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 25px;
     border-radius: 25px;
+    
   }
   
   .chip img {
     float: left;
-    margin: 0 10px 0 -25px;
-    height: 50px;
-    width: 50px;
+    margin: 0 20px 0 -20px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
   }
+
+  .chip .top{
+    font-weight: 600;
+  }
+
+  .chip .bottom{
+      position: relative;
+      top: -20px;
+      left: 0;
+      font-size: 12px;
+  }
+  
+
+  
 
 
 
