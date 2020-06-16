@@ -5,7 +5,14 @@ body{
     margin: 0;
     padding: 0;
     background-color: hsl(218, 28%, 13%);
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400, 700;
+}
+
+header,button{
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -89,11 +96,18 @@ button{
     outline: none;
     background-image: linear-gradient( hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     color: #ffffff;
+    font-family: Raleway;
+    font-weight: 400, 700;
     
+}
+.btn-bottom{
+    padding: 12px 30px;
 }
 
 .services{
+    padding: 100px 0 ;
     text-align: center;
+    line-height: 25px;
 }
 
 
