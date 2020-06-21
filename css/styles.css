@@ -12,8 +12,9 @@ body {
 }
 
 header,
-button {
+button ,h1{
   font-family: "Raleway", sans-serif;
+  font-weight: 400,700;
 }
 
 /* grid layout */
@@ -58,6 +59,7 @@ button {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
+  
 }
 .navbar_links ul {
   margin: px;
@@ -107,6 +109,7 @@ button {
   padding: 100px 0;
   text-align: center;
   line-height: 25px;
+  background-color: hsl(218, 28%, 13%);
 }
 
 .collabration {
@@ -115,6 +118,7 @@ button {
 
 .productive {
   padding: 50px 25px;
+  background-color: hsl(218, 28%, 13%);
 }
 
 .productive h1 {
@@ -136,6 +140,7 @@ button {
   background-image: url("../images/bg-quotes.png");
   background-position: top left;
   background-repeat: no-repeat;
+ 
 }
 
 .testimony {
@@ -181,10 +186,127 @@ button {
   font-size: 12px;
 }
 
+/* registration */
+
+.registration{
+  padding: 100px 0;
+  
+}
+.registration .row{
+  position: relative;
+  top: 200px;
+  padding: 30px 0;
+
+  background-color: hsl(217, 28%, 15%);
+  height: 280px;
+  text-align: center;
+  width: 70%;
+}
+
+.registration h1{
+  font-size: 35px;
+}
+
+#register{
+  margin-right: 8px;
+  padding: 10px 0;
+  width: 32%;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  outline: none;
+  
+}
+
+form{
+  margin: 16px;
+}
+
+footer{
+  padding: 150px 0;
+  background-color: hsl(216, 53%, 9%);
+  height: 400px;
+}
+
+
+footer ul{
+  padding: 0;
+}
+footer ul li{
+  list-style-type: none;
+  padding: 8px;
+  text-align: center;
+}
+.location-icon{
+  position: relative;
+  top: 80px;
+  float: left;
+  margin-right: 40px;
+
+} 
+
+.text-location{
+  margin-left: 40px;
+}
+.contact{
+  text-align: left;
+}
+.email,.phone{
+  position: relative;
+  float: left; 
+  right: 10px; 
+}
+
+.phone{
+  
+  top: 15px;
+}
+.email,.phone{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer .row{
+  width: 90% 
+}
+
+i{
+  
+  font-size: 45px;
+  border: #ffffff 1px;
+  border-radius: 300px;
+
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+/* media querries */
+
+@media (min-width: 375px) and (max-width:425px){
+  [class*="col-"] {
+    width: 100%;
+    padding: 15px;
+    /* border: 1px #ffffff solid; */
+  }
+  .logo{
+    width: 40%;
+  }
+  .navbar_links li {
+    font-size: 14px;
+    padding: 6px;
+    
+  }
+  .navbar{
+    width: 90%;
+    padding: 4px;
+  }
+  
 }
