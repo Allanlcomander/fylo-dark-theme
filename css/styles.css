@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsl(218, 28%, 13%); 
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -78,6 +78,15 @@ button ,h1{
 }
 
 /* introduction */
+.introduction,header{
+  background-color: hsl(217, 28%, 15%);
+}
+.introduction{
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
 .introduction img {
   width: 100%;
 }
@@ -296,8 +305,12 @@ i{
     padding: 15px;
     /* border: 1px #ffffff solid; */
   }
+  .row{
+    width: 90%;
+  }
   .logo{
-    width: 40%;
+    width: 30%;
+    padding: 10px;
   }
   .navbar_links li {
     font-size: 14px;
@@ -308,5 +321,51 @@ i{
     width: 90%;
     padding: 4px;
   }
+
+  .introduction{
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+
+  }
+  .productive{
+    padding: 40px 0;
+  }
+  .productive h1{
+    font-size: 20px;
+  }
   
+  .card{
+    width: 90%;
+  }
+  .registration .row{
+    height: auto;
+    width: 90%;
+  }
+  .registration h1{
+    font-size: 25px;
+  }
+
+  #register,.btn-bottom{
+    width: 90%;
+    margin: 8px;
+    padding: 14px;
+  }
+
+  footer{
+    height: auto;
+    padding: 150px 0 0 0;
+    
+  }
+  .footer-logo{
+    position: relative;
+    right: 60px;
+  }
+
+  footer ul li{
+    text-align: left;
+    
+  }
 }
