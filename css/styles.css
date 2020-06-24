@@ -227,7 +227,9 @@ button {
 .registration h1{
   font-size: 35px;
 }
-
+.registration p{
+  padding: 20px;
+}
 #register{
   margin-right: 8px;
   padding: 10px 0;
@@ -326,6 +328,10 @@ i{
     padding: 15px;
     /* border: 1px #ffffff solid; */
   }
+
+  br{
+    display: none;
+  }
   .row{
     width: 90%;
   }
@@ -368,6 +374,12 @@ i{
   .registration h1{
     font-size: 25px;
   }
+  .registration p{
+    padding: 10px;
+    text-align: center;
+  }
+
+  
 
   #register,.btn-bottom{
     width: 90%;
