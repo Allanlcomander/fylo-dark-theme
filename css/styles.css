@@ -463,4 +463,11 @@ i{
   footer .row{
     width: 95%;
   }
+  .footer-icons i{
+    position: relative;
+    top: 20px;
+    padding: 8px;
+    font-size: 16px;
+    margin: 2px;
+  }
 }
